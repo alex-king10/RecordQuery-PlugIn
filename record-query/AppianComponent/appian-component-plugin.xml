@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<appian-component-plugin name="Record Query Component" key="com.appian.recordqueryfield.key">
+  <plugin-info>
+    <description>A component to query record data with natural language search.</description>
+    <vendor name="Appian" url="www.appian.com"/>
+    <version>1.0.0</version>
+    <support supported="true" email="cto@appian.com" url="https://community.appian.com"/>
+  </plugin-info>
+  <component rule-name="recordQuery" version="1.0.0">
+    <sdk-version>2.0.0</sdk-version>
+    <supported-user-agents>chrome firefox edge safari mobile</supported-user-agents>
+    <icon-file>image.svg</icon-file>
+    <parameter>
+      <name>tasks</name>
+      <category>input-only</category>
+      <type>Text?list</type>
+    </parameter>
+    <parameter>
+      <name>onComplete</name>
+      <category>event</category>
+    </parameter>
+    <parameter>
+      <name>onDelete</name>
+      <category>event</category>
+    </parameter>
+    <parameter>
+      <name>connectedSystem</name>
+      <category>input-only</category>
+      <type>ConnectedSystem</type>
+    </parameter>
+    <html-entry-point>index.html</html-entry-point>
+  </component>
+</appian-component-plugin>

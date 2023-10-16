@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="AppianComponent">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/react-todo-cra/AppianComponent/ComponentPlugin_React_ToDoComponent_v1.0.0.zip!/" />
+      <root url="jar://$PROJECT_DIR$/react-todo-cra/AppianComponent/ComponentPlugin_createreactapp.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
