@@ -6,7 +6,7 @@
     <version>1.0.0</version>
     <support supported="true" email="cto@appian.com" url="https://community.appian.com"/>
   </plugin-info>
-  <component rule-name="recordQuery" version="1.0.0">
+  <component rule-name="recordQueryField" version="1.0.0">
     <sdk-version>2.0.0</sdk-version>
     <supported-user-agents>chrome firefox edge safari mobile</supported-user-agents>
     <icon-file>image.svg</icon-file>
