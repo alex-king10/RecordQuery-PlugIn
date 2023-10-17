@@ -30,11 +30,11 @@
     </parameter>
     <parameter>
       <name>records</name>
-      <category>input-output</category>
+      <category>input-only</category>
       <type>Text?list</type>
     </parameter>
     <parameter>
-      <name>queryIDs</name>
+      <name>returnedIDs</name>
       <category>input-output</category>
       <type>Integer?list</type>
     </parameter>
